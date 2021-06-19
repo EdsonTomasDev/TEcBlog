@@ -1,0 +1,22 @@
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.postagem-lateral__text, .postagem-lateral__link {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.postagem-lateral:not(:last-child) {
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #ccc;
+}
+
